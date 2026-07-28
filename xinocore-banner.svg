@@ -1,0 +1,102 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;display=swap');
+      .title { font-family: 'Montserrat', sans-serif; font-weight: 800; }
+      .tag   { font-family: 'Montserrat', sans-serif; font-weight: 500; }
+      .sub   { font-family: 'Montserrat', sans-serif; font-weight: 600; }
+    </style>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f4f1fc"/>
+    </linearGradient>
+
+    <linearGradient id="brand" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7163F3"/>
+      <stop offset="100%" stop-color="#EE57DD"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#EE57DD"/>
+    </linearGradient>
+
+    <radialGradient id="blob1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7163F3" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#7163F3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blob2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EE57DD" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#EE57DD" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- fondo claro -->
+  <rect width="900" height="300" fill="url(#bg)"/>
+
+  <!-- blobs suaves de fondo, tipico de xinocore.com -->
+  <circle cx="150" cy="150" r="160" fill="url(#blob1)">
+    <animate attributeName="r" values="150;170;150" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="820" cy="240" r="150" fill="url(#blob2)">
+    <animate attributeName="r" values="140;165;140" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="30" r="90" fill="url(#blob1)" opacity="0.7">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- particulas -->
+  <g opacity="0.5">
+    <circle cx="650" cy="70" r="2" fill="#EE57DD"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="140" r="1.6" fill="#7163F3"><animate attributeName="opacity" values="1;0.1;1" dur="4.1s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="90" r="1.8" fill="#9B8CFB"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- anillo orbital fino detras del logo -->
+  <g transform="translate(150,150)">
+    <circle r="105" fill="none" stroke="url(#brand)" stroke-width="1" opacity="0.3" stroke-dasharray="2 8">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- ===== logo real de Xinocore, respirando ===== -->
+  <g transform="translate(70.5,70.5)">
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1;1.045;1" dur="3.2s" repeatCount="indefinite" additive="sum"/>
+      <circle cx="79.5" cy="79.5" r="79.5" fill="url(#paint0_linear_46_37)"/>
+      <path d="M54 101L72.6539 81.4134C73.4026 80.6273 73.3875 79.3875 72.6199 78.6199L54 60" fill="none" stroke="white" stroke-width="7" stroke-linecap="round"/>
+      <path d="M79.1201 25.5C108.304 25.5 131.74 50.021 131.74 79.9912C131.74 92.6415 127.571 104.302 120.566 113.563L115.672 108.41C121.361 100.494 124.74 90.6626 124.74 79.9912C124.74 53.638 104.193 32.5 79.1201 32.5C54.0471 32.5001 33.5002 53.6381 33.5 79.9912C33.5 90.9313 37.0493 100.99 43.001 109.006L38.1172 114.147C30.8441 104.795 26.5 92.9078 26.5 79.9912C26.5002 50.0211 49.9367 25.5001 79.1201 25.5Z" fill="white"/>
+      <path d="M105 101L86.3461 81.4134C85.5974 80.6273 85.6125 79.3875 86.3801 78.6199L105 60" fill="none" stroke="white" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="40.5" cy="111.5" r="3.5" fill="white">
+        <animate attributeName="opacity" values="1;1;0.2;1;1" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="118.4" cy="110.65" r="3.5" fill="white">
+        <animate attributeName="opacity" values="1;1;0.2;1;1" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <defs>
+      <linearGradient id="paint0_linear_46_37" x1="144" y1="126" x2="23.5" y2="24.5" gradientUnits="userSpaceOnUse">
+        <stop stop-color="#EE57DD"/>
+        <stop offset="1" stop-color="#7163F3"/>
+      </linearGradient>
+    </defs>
+  </g>
+
+  <!-- ===== texto, inspirado en las frases reales de xinocore.com ===== -->
+  <g transform="translate(330,110)">
+    <text x="0" y="0" class="title" font-size="46" fill="url(#textGrad)">Xinocore</text>
+
+    <rect x="4" y="14" width="0" height="4" rx="2" fill="url(#brand)">
+      <animate attributeName="width" values="0;235;235" keyTimes="0;0.5;1" dur="2.5s" fill="freeze"/>
+    </rect>
+
+    <text x="4" y="46" class="tag" font-size="19" fill="#3d3a52">Impulsando negocios locales hacia</text>
+    <text x="4" y="70" class="tag" font-size="19" fill="#3d3a52">el futuro digital</text>
+
+    <text x="4" y="102" class="sub" font-size="13" fill="#7163F3" letter-spacing="0.5">FOUNDER &amp; DEVELOPER · JINOTEGA, NICARAGUA</text>
+  </g>
+
+  <!-- linea inferior -->
+  <rect x="0" y="294" width="900" height="4" fill="url(#brand)"/>
+</svg>

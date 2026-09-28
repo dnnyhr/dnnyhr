@@ -42,10 +42,12 @@
 </picture>
 </a>
 
+<div>
 <a href="https://piko.mugiware.com"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dark/btn-piko.svg">
   <img src="./assets/light/btn-piko.svg" alt="Ver proyecto piko.mugiware.com" width="300">
 </picture></a>
+</div>
 
 <img src="https://images.unsplash.com/photo-1749244768351-2726dc23d26c?w=1700&h=420&fit=crop&crop=entropy&sat=-100&auto=format&q=70" alt="Almacén con estanterías" width="100%">
 
@@ -56,10 +58,12 @@
 </picture>
 </a>
 
+<div>
 <a href="https://inventory.xinocore.com"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dark/btn-inventory.svg">
   <img src="./assets/light/btn-inventory.svg" alt="Ver proyecto inventory.xinocore.com" width="341">
 </picture></a>
+</div>
 
 <img src="https://images.unsplash.com/photo-1544033527-b192daee1f5b?w=1700&h=420&fit=crop&crop=entropy&sat=-100&auto=format&q=70" alt="Mancuernas en un gimnasio" width="100%">
 
@@ -70,30 +74,29 @@
 </picture>
 </a>
 
+<div>
 <a href="https://gym.xinocore.com"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dark/btn-gym.svg">
   <img src="./assets/light/btn-gym.svg" alt="Ver proyecto gym.xinocore.com" width="292">
 </picture></a>
+</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/dark/sec-stats.svg">
   <img src="./assets/light/sec-stats.svg" alt="Estadísticas / GitHub stats" width="100%">
 </picture>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dnnyhr/dnnyhr/output/stats-dark.svg">
+  <img src="https://raw.githubusercontent.com/dnnyhr/dnnyhr/output/stats.svg" alt="Estadísticas de GitHub" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dnnyhr/dnnyhr/output/langs-dark.svg">
+  <img src="https://raw.githubusercontent.com/dnnyhr/dnnyhr/output/langs.svg" alt="Lenguajes más usados" width="100%">
+</picture>
+
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=dnnyhr&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=d6a66a&text_color=f0ebe3&icon_color=d6a66a&ring_color=d6a66a&locale=es">
-  <img src="https://github-readme-stats.vercel.app/api?username=dnnyhr&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=94601c&text_color=1c1a17&icon_color=94601c&ring_color=94601c&locale=es" alt="Estadísticas de GitHub" width="49%">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=dnnyhr&hide_border=true&background=00000000&ring=d6a66a&fire=d6a66a&currStreakNum=f0ebe3&sideNums=f0ebe3&currStreakLabel=d6a66a&sideLabels=a39d93&dates=a39d93&stroke=3a3631&locale=es">
-  <img src="https://streak-stats.demolab.com?user=dnnyhr&hide_border=true&background=00000000&ring=94601c&fire=94601c&currStreakNum=1c1a17&sideNums=1c1a17&currStreakLabel=94601c&sideLabels=6b645a&dates=6b645a&stroke=ddd6cb&locale=es" alt="Racha de contribuciones" width="49%">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=dnnyhr&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=d6a66a&text_color=f0ebe3&locale=es">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dnnyhr&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=94601c&text_color=1c1a17&locale=es" alt="Lenguajes más usados" width="60%">
-</picture>
-<br><br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://komarev.com/ghpvc/?username=dnnyhr&label=N%C2%BA%20DE%20VISITANTES&color=d6a66a&labelColor=15181d&style=flat-square&abbreviated=true">
   <img src="https://komarev.com/ghpvc/?username=dnnyhr&label=N%C2%BA%20DE%20VISITANTES&color=94601c&labelColor=1c1a17&style=flat-square&abbreviated=true" alt="Nº de visitantes">
@@ -116,8 +119,8 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=dnnyhr&bg_color=00000000&color=a39d93&line=d6a66a&point=f0ebe3&area=true&area_color=d6a66a&hide_border=true&radius=2&custom_title=Actividad%20%C2%B7%20%C3%BAltimos%2031%20d%C3%ADas&title_color=f0ebe3">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dnnyhr&bg_color=00000000&color=6b645a&line=94601c&point=1c1a17&area=true&area_color=94601c&hide_border=true&radius=2&custom_title=Actividad%20%C2%B7%20%C3%BAltimos%2031%20d%C3%ADas&title_color=1c1a17" alt="Gráfico de actividad" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dnnyhr/dnnyhr/output/activity-dark.svg">
+  <img src="https://raw.githubusercontent.com/dnnyhr/dnnyhr/output/activity.svg" alt="Actividad de los últimos 31 días" width="100%">
 </picture>
 
 <picture>

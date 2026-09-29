@@ -1,0 +1,44 @@
+name: Tarjetas del perfil
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', '.github/workflows/profile-cards.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generar SVG
+        run: node scripts/generate.mjs
+        env:
+          # STATS_TOKEN (opcional): PAT con scope "repo" para incluir repos privados en lenguajes y commits.
+          GH_TOKEN: ${{ secrets.STATS_TOKEN || github.token }}
+          GH_LOGIN: ${{ github.repository_owner }}
+
+      - name: Publicar en la rama output
+        working-directory: dist
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          git init -q -b output
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -q -m "Actualizar tarjetas del perfil"
+          git push -f "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output

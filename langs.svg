@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="106" viewBox="0 0 850 106" fill="none" role="img" aria-label="Lenguajes más usados"><title>Lenguajes más usados</title><style>text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif}.d{font-family:'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif}.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,monospace}.fg{fill:#1c1a17}.mu{fill:#6b645a}.ac{fill:#94601c}
+.up{animation:up .9s cubic-bezier(.2,.8,.2,1) both}.dr{stroke-dasharray:1;animation:dr 1.4s cubic-bezier(.65,0,.35,1) both}
+.gr{transform-box:fill-box;transform-origin:50% 100%;animation:gr .9s cubic-bezier(.2,.8,.2,1) both}
+.sx{transform-box:fill-box;transform-origin:0 50%;animation:sx 1.2s cubic-bezier(.65,0,.35,1) both}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes dr{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes gr{from{transform:scaleY(0)}to{transform:none}}
+@keyframes sx{from{transform:scaleX(0)}to{transform:none}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><text x="0" y="22" font-size="22" class="d fg up">Lenguajes</text><text x="850" y="20" font-size="9.5" letter-spacing="1.8" text-anchor="end" class="m mu up">LANGUAGES · POR TAMAÑO DE CÓDIGO</text><rect x="0.0" y="40" width="280.3" height="6" fill="#94601c" class="sx" style="animation-delay:0.20s"/><rect x="282.3" y="40" width="252.1" height="6" fill="#a3763c" class="sx" style="animation-delay:0.28s"/><rect x="536.4" y="40" width="216.5" height="6" fill="#b28d5c" class="sx" style="animation-delay:0.36s"/><rect x="755.0" y="40" width="60.9" height="6" fill="#c1a37b" class="sx" style="animation-delay:0.44s"/><rect x="817.9" y="40" width="32.1" height="6" fill="#d0b99b" class="sx" style="animation-delay:0.52s"/><rect x="0" y="68" width="8" height="8" fill="#94601c" class="up" style="animation-delay:0.50s"/>
+<text x="16" y="77" font-size="14" class="fg up" style="animation-delay:0.50s">TypeScript</text>
+<text x="16" y="96" font-size="10.5" class="m mu up" style="animation-delay:0.55s">33.3%</text><rect x="141.67" y="68" width="8" height="8" fill="#a3763c" class="up" style="animation-delay:0.57s"/>
+<text x="157.67" y="77" font-size="14" class="fg up" style="animation-delay:0.57s">JavaScript</text>
+<text x="157.67" y="96" font-size="10.5" class="m mu up" style="animation-delay:0.62s">29.9%</text><rect x="283.33" y="68" width="8" height="8" fill="#b28d5c" class="up" style="animation-delay:0.64s"/>
+<text x="299.33" y="77" font-size="14" class="fg up" style="animation-delay:0.64s">HTML</text>
+<text x="299.33" y="96" font-size="10.5" class="m mu up" style="animation-delay:0.69s">25.7%</text><rect x="425" y="68" width="8" height="8" fill="#c1a37b" class="up" style="animation-delay:0.71s"/>
+<text x="441" y="77" font-size="14" class="fg up" style="animation-delay:0.71s">CSS</text>
+<text x="441" y="96" font-size="10.5" class="m mu up" style="animation-delay:0.76s">7.2%</text><rect x="566.67" y="68" width="8" height="8" fill="#d0b99b" class="up" style="animation-delay:0.78s"/>
+<text x="582.67" y="77" font-size="14" class="fg up" style="animation-delay:0.78s">C++</text>
+<text x="582.67" y="96" font-size="10.5" class="m mu up" style="animation-delay:0.83s">3.8%</text></svg>
